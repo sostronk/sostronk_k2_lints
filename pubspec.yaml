@@ -1,0 +1,25 @@
+name: sostronk_k2_lints
+description: A package for sostronk k2 app linting.
+version: 0.0.1
+homepage: https://pub.dev/packages/custom_lint
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+  flutter: ">=3.3.1"
+
+dependencies:
+  analyzer: ^4.7.0
+  analyzer_plugin: ^0.10.0
+  custom_lint_builder: ^0.0.9+1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter packages.
+flutter: null
